@@ -1,0 +1,23 @@
+$ mkdir House
+$ cd House
+$ touch Dorothy
+$ touch Toto
+$ cd $ mkdir Oz
+$ cd Oz
+$ touch Good_Witch_North Wicked_Witch_East 
+$ touch Wicked_Witch_West Good_Witch_South
+$ rm Wicked_Witch_East
+$ mv ~/House/Dorothy ~/Oz
+$ cd
+$ touch Scarecrow Tin_Man Cowardly_Lion
+$ mv Scarecrow Emerald_City
+$ mv Cowardly_Lion Emerald_City
+$ mv Tin_Man Emerald_City
+$ mv Emerald_City Oz
+$ cd Oz
+$ touch Flying_Monkeys
+$ rm Wicked_Witch_West
+$ cd Emerald_City
+$ echo "Diploma" > Scarecrow
+$ echo "Heart Shaped Watch" > Tin_Man
+$ echo "Medal" > Cowardly_Lion
